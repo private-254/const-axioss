@@ -46,7 +46,7 @@ async function aliveCommand(sock, chatId, message) {
 │◇ *Support* Dave-X
 ╰◆
 
-> I'm alive and ready send any command!`;
+> Andrew x is on fire 🔥!`;
 
         await sock.sendMessage(chatId, { text }, { quoted: createFakeContact(message) });
         await sock.sendMessage(chatId, { react: { text: '🕜', key: message.key } });
