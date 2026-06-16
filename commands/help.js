@@ -418,7 +418,7 @@ async function helpCommand(sock, chatId, message) {
     await sock.sendMessage(chatId, { text: 'Loading menu...' }, { quoted: createFakeContact(message) });
     const ping = Math.round((Date.now() - start) / 2);
 
-    await sock.sendMessage(chatId, { react: { text: '🌝', key: message.key } });
+    await sock.sendMessage(chatId, { react: { text: '🔥', key: message.key } });
 
     const uptimeFormatted = formatTime(process.uptime());
 
@@ -453,7 +453,7 @@ async function helpCommand(sock, chatId, message) {
 
         // ── FORWARDED ──────────────────────────────────────────────────────
         } else if (menuMode === 'forwarded') {
-            const channelName = menuSettings.forwardedChannel || '[ Adevos-X Tech ]';
+            const channelName = menuSettings.forwardedChannel || '[ Andrew Tech ]';
             const menulist    = generateMenu(pushname, currentMode, hostName, ping, uptimeFormatted);
             await sendForwardedMenu(sock, chatId, message, menulist, thumbnailBuffer, pushname, channelName, menuStyle);
 
