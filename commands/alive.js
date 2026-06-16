@@ -42,7 +42,7 @@ async function aliveCommand(sock, chatId, message) {
 │◇ *Online & Active*
 │◇ *Uptime:* ${uptime}
 │◇ *Host:* ${platform}
-│◇ *Dev:* Adevos
+│◇ *Dev:* Andrew
 │◇ *Support* Dave-X
 ╰◆
 
