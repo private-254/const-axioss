@@ -41,8 +41,8 @@ async function githubCommand(sock, chatId, message) {
                 forwardingScore: 1,
                 isForwarded: false,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid:    '120363408344756821@newsletter',
-                    newsletterName:   '𝐀𝐝𝐞𝐯𝐨𝐬-𝐗 𝐓𝐞𝐜𝐡 𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥',
+                    newsletterJid:    '120363366284524544@newsletter',
+                    newsletterName:   'Andrew Tech',
                     serverMessageId: -1
                 }
             }
