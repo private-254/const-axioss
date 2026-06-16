@@ -18,7 +18,7 @@ const settings = {
   version: "2.0.0",
   updateBranch: 'main',
   updateZipToken: '',
-  updateZipUrl: "https://github.com/adevosxtech/adevosX-Bot/archive/refs/heads/main.zip",
+  updateZipUrl: "https://github.com/private-254/const-axioss/archive/refs/heads/main.zip",
   timezone: 'Africa/nairobi',
 };
 
