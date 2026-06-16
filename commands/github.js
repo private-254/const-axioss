@@ -13,11 +13,11 @@ async function githubCommand(sock, chatId, message) {
         const senderPhone = senderJid.split('@')[0];
         const pushname    = message.pushName || 'User';
 
-        const res = await fetch('https://api.github.com/repos/adevosxtech/adevosX-Bot');
+        const res = await fetch('https://api.github.com/repos/Andrew-233/ANDREW-ULTRAX');
         if (!res.ok) throw new Error('Error fetching repository data');
         const json = await res.json();
 
-        let txt = `╭─[ *Adevos-X Bot Repo* ]\n`;
+        let txt = `╭─[ *Andrew x Repo* ]\n`;
         txt += `┃❏ *Name:* ${json.name}\n`;
         txt += `┃❏ *Watchers:* ${json.watchers_count}\n`;
         txt += `┃❏ *Size:* ${(json.size / 1024).toFixed(2)} MB\n`;
@@ -28,7 +28,7 @@ async function githubCommand(sock, chatId, message) {
         txt += `┃❏ *Repo:* ${json.html_url}\n`;
         txt += `╰━────────━\n\n`;
         txt += `Hey 👋 @${senderPhone}\n`;
-        txt += `> Thank you for choosing Adevos-X Bot, fork and star the repository ⭐`;
+        txt += `> Thank you for choosing Andrew x, fork and star the repository ⭐`;
 
         const imgPath   = path.join(__dirname, '../assets/repo.jpg');
         const imgBuffer = fs.readFileSync(imgPath);
