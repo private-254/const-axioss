@@ -217,7 +217,7 @@ function generateMenu(pushname, currentMode, hostName, ping, uptimeFormatted) {
         idx++;
         menu += idx % 3 === 0 ? `${readmore}\n` : `\n`;
     }
-    menu += `> Powered By Adevos-X Tech\n`;
+    menu += `> Powered By Andrew Tech\n`;
     return menu;
 }
 
@@ -225,7 +225,7 @@ function generateMenu(pushname, currentMode, hostName, ping, uptimeFormatted) {
 
 async function sendWithStyle(sock, chatId, message, menulist, menuStyle, thumbnailBuffer, pushname, extraContext = {}) {
     const botname = getBotName();
-    const plink   = 'https://github.com/adevosxtech';
+    const plink   = 'https://github.com/Davex-254';
     const fake    = createFakeContact(message);
 
     const adReply = {
@@ -323,8 +323,8 @@ async function sendForwardedMenu(sock, chatId, message, menulist, thumbnailBuffe
         isForwarded:       true,
         forwardingScore:   999,
         forwardedNewsletterMessageInfo: {
-            newsletterJid:     '120363408344756821@newsletter',
-            newsletterName:    channelName || '[ Adevos-X Tech ]',
+            newsletterJid:     '120363366284524544@newsletter',
+            newsletterName:    channelName || '[AndrewTech ]',
             serverMessageId:   Math.floor(Math.random() * 100000)
         }
     };
@@ -344,7 +344,7 @@ async function sendNumbersMenu(sock, chatId, message, headerText, thumbnailBuffe
     const botname    = getBotName();
     const categories = Object.keys(COMMAND_CATEGORIES);
     const fake       = createFakeContact(message);
-    const plink      = 'https://github.com/adevosxtech';
+    const plink      = 'https://github.com/Davex-254';
 
     let numberedList = headerText + '\n\n';
     numberedList += `╭─[ *Categories* ]\n`;
